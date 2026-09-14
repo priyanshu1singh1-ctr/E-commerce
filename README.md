@@ -42,23 +42,37 @@ Native charts
 Where Used
 
 Category, Region, Year, Product summary tables
+
 Order Value Tier column
+
 KPI_Dashboard "Best-Selling Product" / "Lowest-Margin Product"
+
 Quarter, Month Name columns
+
 Raw_Data, Cleaned_Data, Product_Summary
+
 Margin %, Sales columns
+
 Category, Region columns
+
 Sales-by-Product bar chart, Yearly trend line chart
 
 Why
 
 Aggregate sales/profit/orders by dimension without manual pivoting
+
 Classify orders into Low/Medium/High bands
+
 Dynamic lookups that update automatically if the data changes
+
 Enable time-based grouping
+
 Auto-expanding structured ranges for formulas and charts
+
 Instantly flag low-margin rows/products
+
 Enforce consistent category/region entry
+
 Visual summary directly in Excel
 
 

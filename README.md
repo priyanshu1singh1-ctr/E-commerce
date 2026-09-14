@@ -40,6 +40,7 @@ Data Validation
 Native charts
 
 Where Used
+
 Category, Region, Year, Product summary tables
 Order Value Tier column
 KPI_Dashboard "Best-Selling Product" / "Lowest-Margin Product"
@@ -50,6 +51,7 @@ Category, Region columns
 Sales-by-Product bar chart, Yearly trend line chart
 
 Why
+
 Aggregate sales/profit/orders by dimension without manual pivoting
 Classify orders into Low/Medium/High bands
 Dynamic lookups that update automatically if the data changes

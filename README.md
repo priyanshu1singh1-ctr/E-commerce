@@ -29,15 +29,36 @@ Excel (Advanced Formulas, Pivot-style Summaries, Conditional Formatting, Data Va
 
 **Advanced Excel Analysis**
 
-Technique	              Where used	                                          Why
-SUMIFS / COUNTIFS	      Category, Region, Year, Product summary tables	      Aggregate sales/profit/orders by dimension without manual pivoting
-IFS (nested logic)	    Order Value Tier column	                              Classify orders into Low/Medium/High bands
-INDEX / MATCH	          KPI_Dashboard "Best-Selling Product" / "Lowest-Margin Product"	Dynamic lookups that update automatically if the data changes
-Date/Text functions (YEAR, MONTH, TEXT, ROUNDUP)     Quarter, Month Name columns       Enable time-based grouping
-Excel Tables	          Raw_Data, Cleaned_Data, Product_Summary	              Auto-expanding structured ranges for formulas and charts
-Conditional Formatting	Margin %, Sales columns	                              Instantly flag low-margin rows/products
-Data Validation	        Category, Region columns	                            Enforce consistent category/region entry
-Native charts	          Sales-by-Product bar chart, Yearly trend line chart	  Visual summary directly in Excel
+Technique	              
+SUMIFS / COUNTIFS	      
+IFS (nested logic)	    
+INDEX / MATCH	          
+Date/Text functions (YEAR, MONTH, TEXT, ROUNDUP)    
+Excel Tables	          
+Conditional Formatting	Margin %, Sales columns	          
+Data Validation	        
+Native charts
+
+Where Used
+Category, Region, Year, Product summary tables
+Order Value Tier column
+KPI_Dashboard "Best-Selling Product" / "Lowest-Margin Product"
+Quarter, Month Name columns
+Raw_Data, Cleaned_Data, Product_Summary
+Margin %, Sales columns
+Category, Region columns
+Sales-by-Product bar chart, Yearly trend line chart
+
+Why
+Aggregate sales/profit/orders by dimension without manual pivoting
+Classify orders into Low/Medium/High bands
+Dynamic lookups that update automatically if the data changes
+Enable time-based grouping
+Auto-expanding structured ranges for formulas and charts
+Instantly flag low-margin rows/products
+Enforce consistent category/region entry
+Visual summary directly in Excel
+
 
 File: **excel/Ecommerce_Sales_Analysis.xlsx** — all KPIs are live formulas (SUMIFS/COUNTIFS/INDEX-MATCH)
 Power BI Dashboard

@@ -136,6 +136,10 @@ Total Orders- 349
 
 
 
+
+
+
+
 **Power BI Dashboard — Design Specification**
 
 1. Data Model
@@ -185,6 +189,12 @@ RETURN DIVIDE(CurrQ - PrevQ, PrevQ, 0)
 % of Total Sales = DIVIDE([Total Sales], CALCULATE([Total Sales], ALL(Sales)), 0)
 
 Rank by Sales (Product) = RANKX(ALL(Sales[Product Name]), [Total Sales], , DESC)
+
+
+
+
+
+
 
 
 
